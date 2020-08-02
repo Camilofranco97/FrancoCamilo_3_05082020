@@ -127,6 +127,8 @@ h1
 #prochainement p
 {
     margin: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 footer
@@ -138,5 +140,5 @@ footer
 
 footer p 
 {
-    margin: 0px 5px 0px 5px;
+    margin: 7px 7px 7px 7px;
 }
