@@ -20,6 +20,7 @@ header footer
 h1
 {
     justify-content: center;
+    text-align: center;
 }
 
 .yellow
@@ -32,7 +33,7 @@ h1
     display: flex;
     flex-direction: column;
     width: 80%;
-    justify-content: center;
+    justify-content: auto;
 }
 
 .block
@@ -41,17 +42,79 @@ h1
     flex-direction: row;
 }
 
-.right
+.left
 {
-    margin: 0px 20px 20px 0px;
+    width: 40%;
+    justify-content: auto;
 }
 
-div .color
+.right
+{
+    width: 40%;
+    justify-content: auto;
+}
+
+#la-note
+{
+    background-color: rgb(252, 223, 219);
+}
+
+#la-note p
+{
+    color: rgb(60, 18, 24);
+}
+
+#le-chic
+{
+    background-color: rgb(255, 245, 254);
+}
+
+#le-chic p
+{
+
+}
+
+#le-chic div
+{
+    color: rgb(199, 116, 18);
+}
+
+#le-delice
+{
+    background-color: rgb(249, 249, 249);
+}
+
+#le-delice p
+{
+
+}
+
+#le-delice div
+{
+    color: rgb(8, 135, 251);
+}
+
+#la-palette
+{
+    background-color: rgb(253, 255, 255);
+}
+
+#la-palette p
+{
+
+}
+
+#la-palette div
+{
+    color: rgb(114, 191, 86);
+}
+
+#prochainement
 {
     display: flex;
-    border-radius: 10px;
-    width: 60%;
-    justify-content: center;
+    border-radius: 5px;
+    width: 50%;
+    justify-content: auto;
     margin: 7px 13px 7px 13px;
 }
 
