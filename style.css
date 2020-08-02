@@ -45,13 +45,13 @@ h1
 .left
 {
     width: 40%;
-    margin: auto;
+    margin: 25px 25px 0px 0px;
 }
 
 .right
 {
     width: 40%;
-    margin: auto;
+    margin: 25px 0px 0px 0px;
 }
 
 #la-note
@@ -113,13 +113,15 @@ h1
 {
     display: flex;
     border-radius: 5px;
-    width: 40%;
+    width: 30%;
     margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #prochainement p
 {
-    text-align: center;
+    margin: auto;
 }
 
 footer
