@@ -45,13 +45,13 @@ h1
 
 .container
 {
-    width: 48%;
-    margin: 35px 0px 0px 0px;
+    width: 47%;
+    margin: 50px 0 0 0;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 0 8px;
+    box-shadow: 0 0 6px;
 }
 
 #la-note
@@ -119,8 +119,8 @@ h1
     border-radius: 5px;
     width: 30%;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #prochainement p
