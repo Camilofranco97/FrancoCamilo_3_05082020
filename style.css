@@ -56,7 +56,8 @@ h1
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 0 6px;
+    box-shadow: 0 0 8px rgb(241, 241, 241);
+    font-size: 25px;
 }
 
 #la-note
@@ -78,6 +79,12 @@ h1
 
 #le-chic p
 {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
+    background: #c77412; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #c77412 0%, #9861ef 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #c77412 0%,#9861ef 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #c77412 0%,#9861ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c77412', endColorstr='#9861ef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -135,6 +142,7 @@ h1
     justify-content: center;
     margin: auto;
     height: 70px;
+    font-size: 2em;
 }
 
 footer
@@ -151,4 +159,5 @@ footer p
     justify-content: center;
     height: 70px;
     margin: 0 10px 0 10px;
+    font-size: 2em;
 }
