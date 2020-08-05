@@ -19,8 +19,13 @@ header footer
 
 h1
 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: auto;
+    height: 150px;
+    font-size: 4em;
 }
 
 .yellow
@@ -47,7 +52,7 @@ h1
 {
     width: 47%;
     margin: 50px 0 0 0;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,9 +130,11 @@ h1
 
 #prochainement p
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    height: 70px;
 }
 
 footer
@@ -139,5 +146,9 @@ footer
 
 footer p 
 {
-    margin: 7px 7px 7px 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    margin: 0 10px 0 10px;
 }
