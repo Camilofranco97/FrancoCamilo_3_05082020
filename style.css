@@ -56,11 +56,11 @@ h1
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-shadow: 0 0 15px rgb(235, 235, 235);
+    box-shadow: 0 0 18px rgb(235, 235, 235);
     font-size: 25px;
 }
 
-.fas fa-music
+i
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
     background: #f45a5f; /* Old browsers */
