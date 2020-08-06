@@ -195,3 +195,13 @@ footer p
     margin: 0 10px 0 10px;
     font-size: 2em;
 }
+
+@media all and (max-width: 1200px)
+{
+    .block
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
