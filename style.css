@@ -203,5 +203,28 @@ footer p
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin: auto;
+    }
+
+    .container
+    {
+        width: 70%;
+        margin: 50px 0 0 0;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 0 0 18px rgb(235, 235, 235);
+        font-size: 20px;
+    }
+        
+    #prochainement p
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 70px;
+        font-size: 20px;
     }
 }
