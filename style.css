@@ -72,7 +72,7 @@ i
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
-}
+} 
 #la-note
 {
     background-color: rgb(252, 223, 219);
@@ -90,7 +90,7 @@ i
     text-align: center;
 }
 
-#le-chic p
+#le-chic p a
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
     background: #c77412; /* Old browsers */
@@ -104,7 +104,7 @@ i
     -webkit-background-clip: text;
 }
 
-#le-chic div
+#le-chic a
 {
     color: rgb(199, 116, 18);
 }
@@ -129,7 +129,7 @@ i
     -webkit-background-clip: text;
 }
 
-#le-delice div
+#le-delice a
 {
     color: rgb(8, 135, 251);
 }
@@ -154,7 +154,7 @@ i
     -webkit-background-clip: text;
 }
 
-#la-palette div
+#la-palette a
 {
     color: rgb(114, 191, 86);
 }
