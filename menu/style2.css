@@ -1,0 +1,62 @@
+body
+{
+    display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	width: 100%;
+    margin: 0px;
+}
+
+header footer
+{
+    width: 100%;
+}
+
+.color
+{
+    background-color: rgb(87, 156, 135);
+}
+
+h1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    height: 150px;
+    font-size: 4em;
+}
+
+.yellow
+{
+    color: rgb(253, 203, 70);
+}
+
+#menu-section
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70px;
+    margin: 0 10px 0 10px;
+    font-size: 2em;
+}
