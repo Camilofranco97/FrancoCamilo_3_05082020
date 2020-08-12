@@ -43,8 +43,9 @@ h1
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
+    font-size: 25px;
 }
 
 h2
@@ -60,7 +61,7 @@ h2
     margin: auto;
     background-color: rgb(252, 223, 219);
     color: rgb(61, 19, 25);
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 90px;
 }
 
@@ -79,7 +80,8 @@ h2
     justify-content: center;
     align-items: center;
     margin: 0;
-    font-size: 2em;
+    margin-bottom: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -173,5 +175,5 @@ footer p
     justify-content: center;
     height: 70px;
     margin: 0 10px 0 10px;
-    font-size: 2em;
+    font-size: 17px;
 }
