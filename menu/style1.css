@@ -94,6 +94,12 @@ h2
 .gras
 {
     font-weight: bold;
+
+}
+
+.titre h3
+{
+    width: 25%;
 }
 
 .decorated
