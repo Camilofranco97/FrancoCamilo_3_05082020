@@ -96,7 +96,7 @@ h2
     font-weight: bold;
 }
 
-span
+span .gra
 {
     width: 25%;
 }
@@ -180,5 +180,5 @@ footer p
     justify-content: center;
     height: 70px;
     margin: 0 10px 0 10px;
-    font-size: 17px;
+    font-size: 20px;
 }
