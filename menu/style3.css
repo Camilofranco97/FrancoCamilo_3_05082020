@@ -59,7 +59,7 @@ h2
     flex-direction: column;
     width: 80%;
     margin: auto;
-    background-color: rgb(252, 223, 219);
+    background-color: rgb(249, 249, 249);
     color: rgb(61, 19, 25);
     margin-top: 20px;
     margin-bottom: 90px;
@@ -88,7 +88,20 @@ h2
 #superieur i
 {
     font-size: 40px;
+}
 
+#superieur h2
+{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#061de5+0,0887fb+100 */
+        background: #061de5; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #061de5 0%, #0887fb 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #061de5 0%,#0887fb 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #061de5 0%,#0887fb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#061de5', endColorstr='#0887fb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
 }
 
 .gras
