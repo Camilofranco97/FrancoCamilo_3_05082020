@@ -196,3 +196,27 @@ footer p
     margin: 0 10px 0 10px;
     font-size: 20px;
 }
+
+@media all and (max-width:600px)
+{
+    #menu-section
+    {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        background-color: rgb(253, 255, 255);
+        margin-top: 20px;
+        margin-bottom: 90px;
+        box-shadow: 0 0 18px rgb(235, 235, 235);
+    }
+    
+    footer p
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 70px;
+        margin: 0 8px 0 8px;
+    }
+}
