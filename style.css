@@ -62,7 +62,17 @@ h1
     flex-direction: column;
     justify-content: center;
     box-shadow: 0 0 18px rgb(235, 235, 235);
+}
+ 
+.container p
+{
     font-size: 25px;
+}
+
+.container a
+{
+    font-size: 35px;
+    font-weight: bold;
 }
 
 i
@@ -95,7 +105,7 @@ i
     text-align: center;
 }
 
-#le-chic p a
+#le-chic p
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
     background: #c77412; /* Old browsers */

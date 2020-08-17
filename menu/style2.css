@@ -63,6 +63,7 @@ h2
     color: rgb(61, 19, 25);
     margin-top: 20px;
     margin-bottom: 90px;
+    box-shadow: 0 0 18px rgb(235, 235, 235);
 }
 
 #zone-text
@@ -108,6 +109,21 @@ h2
 .gras
 {
     font-weight: bold;
+}
+
+#entré
+{
+    color: rgb(198, 116, 18);
+}
+
+#plat
+{
+    color: rgb(179, 125, 168);
+}
+
+#dessert
+{
+    color: rgb(132, 102, 212);
 }
 
 span
