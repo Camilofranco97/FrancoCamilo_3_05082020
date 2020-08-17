@@ -38,6 +38,11 @@ h1
     color: rgb(253, 203, 70);
 }
 
+a
+{
+    text-decoration: none;
+}
+
 #menu-section
 {
     display: flex;
@@ -87,6 +92,7 @@ i
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -webkit-background-clip: text;
+    font-size: 30px;
 } 
 #la-note
 {
@@ -94,7 +100,12 @@ i
     text-align: center;
 }
 
-#la-note p a
+#la-note p
+{
+    color: rgb(60, 18, 24);
+}
+
+#la-note a
 {
     color: rgb(60, 18, 24);
 }
@@ -191,7 +202,7 @@ i
     justify-content: center;
     margin: auto;
     height: 70px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 footer
