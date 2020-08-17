@@ -225,6 +225,22 @@ footer p
         margin-bottom: 90px;
         box-shadow: 0 0 18px rgb(235, 235, 235);
     }
+
+    .food
+    {
+        width: 85%;
+    }
+
+    .prix
+    {
+        width: 15%;
+        text-align: right;
+    }
+
+    .prix p
+    {
+        margin-bottom: 35px;
+    }
     
     footer p
     {
