@@ -59,8 +59,7 @@ h2
     flex-direction: column;
     width: 80%;
     margin: auto;
-    background-color: rgb(249, 249, 249);
-    color: rgb(61, 19, 25);
+    background-color: rgb(237, 239, 239);
     margin-top: 20px;
     margin-bottom: 90px;
     box-shadow: 0 0 18px rgb(235, 235, 235);
@@ -130,7 +129,7 @@ span
    content: '';
    position: absolute;
    top: 50%;
-   border-bottom: 2px solid;
+   border-bottom: 2px solid rgb(red, green, blue);
    width: 800%; /* half of limiter*/
    margin: 0 20px;
    border-radius: 10px;
