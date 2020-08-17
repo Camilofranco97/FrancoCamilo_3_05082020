@@ -228,6 +228,8 @@ footer p
 
     .choix p
     {
+        display: flex;
+        flex-direction: row;
         align-items: center;
     }
     .food
