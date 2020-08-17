@@ -199,6 +199,30 @@ footer p
         box-shadow: 0 0 18px rgb(235, 235, 235);
     }
 
+    #zone-text
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .food
+    {
+        width: 85%;
+    }
+
+    .prix
+    {
+        width: 15%;
+        text-align: right;
+    }
+
+    .prix p
+    {
+        margin-bottom: 16px;
+    }
+
     footer p
     {
         display: flex;
