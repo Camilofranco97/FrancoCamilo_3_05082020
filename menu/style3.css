@@ -109,6 +109,21 @@ h2
     font-weight: bold;
 }
 
+#entré .decorated
+{
+    color: rgb(2, 40, 121);
+}
+
+#plat .decorated
+{
+    color: rgb(6, 112, 243);
+}
+
+#dessert .decorated
+{
+    color: rgb(34, 157, 249);
+}
+
 span
 {
     width: 25%;
@@ -129,7 +144,7 @@ span
    content: '';
    position: absolute;
    top: 50%;
-   border-bottom: 2px solid rgb(red, green, blue);
+   border-bottom: 2px solid;
    width: 800%; /* half of limiter*/
    margin: 0 20px;
    border-radius: 10px;
