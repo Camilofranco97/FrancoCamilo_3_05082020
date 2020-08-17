@@ -136,8 +136,11 @@ span
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 50px;
+}
+
+#entré #plat #dessert
+{
+    margin-bottom: 40px;
 }
 
 .food
