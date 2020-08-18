@@ -140,10 +140,10 @@ span
 
 .choix p
 {
-    margin: 0;
+    margin: 10px;
 }
 
-#entré #plat #dessert
+#entré, #plat, #dessert
 {
     margin-bottom: 40px;
 }
@@ -225,7 +225,7 @@ footer p
     
     .choix p
     {
-        margin: 0;
+        margin: 10px;
     }
 
     .food
