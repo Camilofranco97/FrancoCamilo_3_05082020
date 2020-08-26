@@ -85,12 +85,6 @@ h2
     font-weight: bold;
 }
 
-#superieur i
-{
-    font-size: 40px;
-
-}
-
 #superieur h2
 {
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#72bf56+0,bfff7e+100 */
@@ -147,8 +141,8 @@ span
 {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+    width: 88%;
+    margin: auto;
 }
 
 .choix p
