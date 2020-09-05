@@ -17,7 +17,7 @@ header footer
     width: 100%;
 }
 
-.color
+.bg-green
 {
     background-color: rgb(87, 156, 135);
 }
@@ -43,7 +43,7 @@ a
     text-decoration: none;
 }
 
-#menu-section
+.menu-section
 {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,6 @@ a
 .block
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -94,29 +93,29 @@ i
     -webkit-background-clip: text;
     font-size: 30px;
 } 
-#la-note
+.la-note
 {
     background-color: rgb(252, 223, 219);
     text-align: center;
 }
 
-#la-note p
+.la-note p
 {
     color: rgb(60, 18, 24);
 }
 
-#la-note a
+.la-note a
 {
     color: rgb(60, 18, 24);
 }
 
-#le-chic
+.le-chic
 {
     background-color: rgb(255, 245, 254);
     text-align: center;
 }
 
-#le-chic p
+.le-chic p
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
     background: #c77412; /* Old browsers */
@@ -130,18 +129,18 @@ i
     -webkit-background-clip: text;
 }
 
-#le-chic a
+.le-chic a
 {
     color: rgb(199, 116, 18);
 }
 
-#le-delice
+.le-delice
 {
     background-color: rgb(249, 249, 249);
     text-align: center;
 }
 
-#le-delice p
+.le-delice p
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#061de5+0,0887fb+100 */
     background: #061de5; /* Old browsers */
@@ -155,18 +154,18 @@ i
     -webkit-background-clip: text;
 }
 
-#le-delice a
+.le-delice a
 {
     color: rgb(8, 135, 251);
 }
 
-#la-palette
+.la-palette
 {
     background-color: rgb(253, 255, 255);
     text-align: center;
 }
 
-#la-palette p
+.la-palette p
 {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#72bf56+0,bfff7e+100 */
     background: #72bf56; /* Old browsers */
@@ -185,7 +184,7 @@ i
     color: rgb(114, 191, 86);
 }
 
-#next
+.next
 {
     display: flex;
     border-radius: 5px;
@@ -195,7 +194,7 @@ i
     margin-bottom: 50px;
 }
 
-#next p
+.next p
 {
     display: flex;
     flex-direction: column;
@@ -208,7 +207,6 @@ i
 footer
 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -242,7 +240,7 @@ footer p
         justify-content: center;
     }
 
-    #menu-section
+    .menu-section
     {
         display: flex;
         flex-direction: column;
@@ -261,7 +259,7 @@ footer p
         font-size: 20px;
     }
     
-    #next
+    .next
     {
         display: flex;
         border-radius: 5px;
@@ -271,7 +269,7 @@ footer p
         margin-bottom: 50px;
     }
 
-    #next p
+    .next p
     {
         display: flex;
         flex-direction: column;
@@ -292,7 +290,7 @@ footer p
 }
 @media all and (max-width:600px)
 {
-    #next
+    .next
     {
         display: flex;
         border-radius: 5px;
