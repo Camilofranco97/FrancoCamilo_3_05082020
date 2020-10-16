@@ -1,0 +1,27 @@
+@mixin flex-column{
+    display: flex;
+	flex-direction: column;    
+}
+@mixin restaurant-name{
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+@mixin specs-text-zone{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+@mixin specs-menu{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    box-shadow: 0 0 18px rgb(235, 235, 235);
+}
+@mixin content-items-center{
+    justify-content: center;
+    align-items: center;
+}
