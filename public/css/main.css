@@ -27,17 +27,34 @@ header .yellow-text {
 .white-section {
   width: 100%;
 }
-.white-section .menu-section {
+.white-section .search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 50px auto 0;
+}
+.white-section .search-bar .restaurant-search {
+  border-radius: 30px;
+  margin-right: 5px;
+  width: 65%;
+  height: 30px;
+}
+.white-section .search-bar .fa-search {
+  font-size: 20px;
+}
+
+.menu-section {
   display: flex;
   flex-direction: column;
   width: 70%;
   margin: auto;
 }
-.white-section .menu-section .block {
+.menu-section .block {
   display: flex;
   justify-content: space-between;
 }
-.white-section .menu-section i {
+.menu-section i {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
   background: #f45a5f;
   /* Old browsers */
@@ -55,7 +72,7 @@ header .yellow-text {
   -webkit-background-clip: text;
   font-size: 50px;
 }
-.white-section .menu-section .menu-size {
+.menu-section .menu-size {
   width: 45%;
 }
 

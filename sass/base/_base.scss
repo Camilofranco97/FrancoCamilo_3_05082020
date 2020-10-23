@@ -23,32 +23,48 @@ header{
 
 .white-section{
     width: 100%;
-    .menu-section{
-        @include flex-column;
-        width: 70%;
-        margin: auto;
-        .block{
-            display: flex;
-            justify-content: space-between;
+    .search-bar{
+        display: flex;
+        @include content-items-center;
+        width: 50%;     
+        margin: 50px auto 0;
+        .restaurant-search{
+            border-radius: 30px;
+            margin-right: 5px;
+            width: 65%;
+            height: 30px;
         }
-        i{
-            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
-            background: #f45a5f; /* Old browsers */
-            background: -moz-linear-gradient(-45deg,  #f45a5f 0%, #f88e6d 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(-45deg,  #f45a5f 0%,#f88e6d 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(135deg,  #f45a5f 0%,#f88e6d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f45a5f', endColorstr='#f88e6d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-            -moz-text-fill-color: transparent;
-            -webkit-text-fill-color: transparent;
-            -moz-background-clip: text;
-            -webkit-background-clip: text;
-            font-size: 50px;
-        }
-        .menu-size{
-            width: 45%;
+        .fa-search{
+            font-size: 20px;
         }
     }
 }
+.menu-section{
+    @include flex-column;
+    width: 70%;
+    margin: auto;
+    .block{
+        display: flex;
+        justify-content: space-between;
+    }
+    i{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
+        background: #f45a5f; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #f45a5f 0%, #f88e6d 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #f45a5f 0%,#f88e6d 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #f45a5f 0%,#f88e6d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f45a5f', endColorstr='#f88e6d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 50px;
+    }
+    .menu-size{
+        width: 45%;
+    }
+}
+
 
 a{
     text-decoration: none;
