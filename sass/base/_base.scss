@@ -33,6 +33,7 @@ header{
             margin-right: 5px;
             width: 65%;
             height: 30px;
+            outline: none;
         }
         .fa-search{
             font-size: 20px;
@@ -78,7 +79,7 @@ a{
     }
 }
 
-.menu-la-note{
+.menu1{
     @include flex-column;
     @include specs-menu;
     background-color: rgb(252, 223, 219);
@@ -89,7 +90,7 @@ a{
 }
 
 
-.menu-le-chic{
+.menu2{
     @include flex-column;
     @include specs-menu;
     background-color: rgb(255, 245, 254);
@@ -99,7 +100,7 @@ a{
     }
 }
 
-.menu-le-délice{
+.menu3{
     @include flex-column;
     @include specs-menu;
     background-color: rgb(237, 239, 239);
@@ -120,7 +121,7 @@ a{
     }
 }
 
-.menu-la-palette{
+.menu4{
     @include flex-column;
     @include specs-menu;
     background-color: rgb(253, 255, 255);
