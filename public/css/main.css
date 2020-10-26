@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "devonshireregular";
+  src: url("../../public/font/font-title-menu1/devonshire-regular-webfont.woff2") format("woff2"), url("../../public/font/font-title-menu1/devonshire-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "croissant_oneregular";
+  src: url("../../public/font/font-title-menu2/croissantone-regular-webfont.woff2") format("woff2"), url("../../public/font/font-title-menu2/croissantone-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "dancing_script_otregular";
+  src: url("../../public/font/font-tilte-menu3/dancingscript-regular-webfont.woff") format("woff2"), url("../../public/font/font-title-menu3/dancingscript-regular-webfont.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "kaushan_scriptregular";
+  src: url("../../public/font/font-title-menu4/kaushanscript-regular-webfont.woff2") format("woff2"), url("../../public/font/font-title-menu4/kaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "bodoniflfregular";
+  src: url("../../public/font/font-texte/bodoniflf-roman-webfont.woff2") format("woff2"), url("bodoniflf-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -108,6 +138,7 @@ a {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-family: "bodoniflfregular";
 }
 
 .menu2 {
@@ -126,6 +157,7 @@ a {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-family: "bodoniflfregular";
 }
 
 .menu3 {
@@ -143,6 +175,7 @@ a {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-family: "bodoniflfregular";
 }
 .menu3 h2 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#061de5+0,0887fb+100 */
@@ -177,6 +210,7 @@ a {
   margin: auto;
   margin-top: 60px;
   margin-bottom: 60px;
+  font-family: "bodoniflfregular";
 }
 .menu4 h2 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#72bf56+0,bfff7e+100 */
@@ -269,9 +303,7 @@ h3 span {
 }
 .description-menu1 p {
   color: #3c1218;
-}
-.description-menu1 a {
-  color: #3c1218;
+  font-family: "devonshireregular";
 }
 
 .description-menu2 {
@@ -294,6 +326,7 @@ h3 span {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
+  font-family: "croissant_oneregular";
 }
 .description-menu2 a {
   color: #c77412;
@@ -319,6 +352,7 @@ h3 span {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
+  font-family: "dancing_script_otregular";
 }
 .description-menu3 a {
   color: #0887fb;
@@ -344,6 +378,7 @@ h3 span {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
+  font-family: "kaushan_scriptregular";
 }
 .description-menu4 a {
   color: #72bf56;
