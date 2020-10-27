@@ -66,7 +66,6 @@ header{
     }
 }
 
-
 a{
     text-decoration: none;
 }
@@ -78,14 +77,24 @@ a{
         margin: 0;
     }
 }
-
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img{
+        width: 35%;
+    }
+}
 .menu1{
     @include flex-column;
     @include specs-menu;
-    background-color: rgb(252, 223, 219);
-    color: rgb(61, 19, 25);
+    background-color: #fcdfdb;
+    color: #3c1218;
     .text-zone{
         @include specs-text-zone;
+    }
+    h3, p{
+        font-family: 'bodoniflfregular';
     }
 }
 
@@ -93,17 +102,28 @@ a{
 .menu2{
     @include flex-column;
     @include specs-menu;
-    background-color: rgb(255, 245, 254);
-    color: rgb(61, 19, 25);
+    background-color: #fff5fe;
     .text-zone{
         @include specs-text-zone;
+    }
+    h3, p{
+        font-family: 'bodoniflfregular';
+    }
+    .starter{
+        color: #be703a;
+    }
+    .dish{
+        color: #b983b3;
+    }
+    .dessert{
+        color: #79389c;
     }
 }
 
 .menu3{
     @include flex-column;
     @include specs-menu;
-    background-color: rgb(237, 239, 239);
+    background-color: #edefef;
     .text-zone{
         @include specs-text-zone()
     }
@@ -119,13 +139,15 @@ a{
         -moz-background-clip: text;
         -webkit-background-clip: text;
     }
+    h3, p{
+        font-family: 'bodoniflfregular';
+    }
 }
 
 .menu4{
     @include flex-column;
     @include specs-menu;
-    background-color: rgb(253, 255, 255);
-
+    background-color: #fdffff;
     .text-zone{
         @include specs-text-zone;
     }
@@ -140,6 +162,9 @@ a{
         -webkit-text-fill-color: transparent;
         -moz-background-clip: text;
         -webkit-background-clip: text;
+    }
+    h3, p{
+        font-family: 'bodoniflfregular';
     }
 }
 
@@ -157,6 +182,51 @@ a{
     }
     .bold{
         font-weight: bold;
+    }
+    .first-menu{
+        font-family: 'devonshireregular';
+    }
+    .second-menu{
+        font-family: 'croissant_oneregular';
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
+        background: #c77412; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #c77412 0%, #9861ef 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #c77412 0%,#9861ef 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #c77412 0%,#9861ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c77412', endColorstr='#9861ef',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+    }
+    .third-menu{
+        font-family: 'dancing_script_otregular';
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#061de5+0,0887fb+100 */
+        background: #061de5; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #061de5 0%, #0887fb 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #061de5 0%,#0887fb 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #061de5 0%,#0887fb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#061de5', endColorstr='#0887fb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+    }
+    .fourth-menu{
+        font-family: 'kaushan_scriptregular';
+        background: #72bf56; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #72bf56 0%, #bfff7e 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  #72bf56 0%,#bfff7e 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  #72bf56 0%,#bfff7e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72bf56', endColorstr='#bfff7e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+    }
+    img{
+        height: 60px;
+        width: 60px;
     }
 }
 
@@ -185,40 +255,56 @@ h3{
     @include content-items-center;
     font-size: 20px;
     font-weight: bold;
-    i{
-    font-size: 40px;
-    margin-right: 5px;
+    img{
+        height: 40px;
+        width: 40px;
+        margin-right: 5px;
+    }
+    .first-menu{
+        font-family: 'devonshireregular';
     }
 }
-                
+
+/*home page*/           
 .container{
     margin: 70px 0 0 0;
     height: 600px;
     @include flex-column;
     justify-content: center;
     box-shadow: 0 0 18px rgb(235, 235, 235);                  
-    p{
+    .restaurant-name{
         font-size: 25px;
     }
-    a{
-        font-size: 35px;
+    .capital-letter{
+        font-size: 40px;
         font-weight: bold;
+        margin: 0;
     }
 }
 
 .description-menu1{
-    background-color: rgb(252, 223, 219);
+    background-color: #fcdfdb;
     text-align: center;
-    p{
-        color: rgb(60, 18, 24);
+    @include flex-column;
+    @include content-items-center;
+    .restaurant-name{
+        color:  #3c1218;
         font-family:'devonshireregular';
+        font-size: 35px;
+    }
+    .capital-letter{
+        color: #3c1218
+    }
+    img{
+        height: 60px;
+        width: 60px;
     }
 }
         
 .description-menu2{
-    background-color: rgb(255, 245, 254);
+    background-color: #fff5fe;
     text-align: center;
-        p{
+    .restaurant-name{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c77412+0,9861ef+100 */
         background: #c77412; /* Old browsers */
         background: -moz-linear-gradient(-45deg,  #c77412 0%, #9861ef 100%); /* FF3.6-15 */
@@ -231,15 +317,16 @@ h3{
         -webkit-background-clip: text;
         font-family:'croissant_oneregular';
     }
-    a{
-        color: rgb(199, 116, 18);
+    .capital-letter{
+        color: #c17232;
     }
+
 }
 
 .description-menu3{
-    background-color: rgb(249, 249, 249);
+    background-color: #edefef;
     text-align: center;
-    p{
+    .restaurant-name{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#061de5+0,0887fb+100 */
         background: #061de5; /* Old browsers */
         background: -moz-linear-gradient(-45deg,  #061de5 0%, #0887fb 100%); /* FF3.6-15 */
@@ -252,13 +339,13 @@ h3{
         -webkit-background-clip: text;
         font-family: 'dancing_script_otregular';
     }
-    a{
-        color: rgb(8, 135, 251);
+    .capital-letter{
+        color: #061de5;
     }
 }
                 
 .description-menu4{
-    background-color: rgb(253, 255, 255);
+    background-color: #fdffff;
     text-align: center;
     p{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#72bf56+0,bfff7e+100 */
@@ -272,9 +359,6 @@ h3{
         -moz-background-clip: text;
         -webkit-background-clip: text;
         font-family:'kaushan_scriptregular';
-    }
-    a{
-        color: rgb(114, 191, 86);
     }
 }
 
@@ -295,7 +379,8 @@ h3{
         align-items: center;
     }
 }
-    
+/*end home page*/   
+
 footer{
 display: flex;
 justify-content: space-between;
