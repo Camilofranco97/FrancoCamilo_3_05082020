@@ -49,6 +49,11 @@ header h1 {
   height: 150px;
   font-size: 4em;
 }
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 3em;
+  }
+}
 header .yellow-text {
   color: #fdcb46;
 }
@@ -83,6 +88,26 @@ header .yellow-text {
 .menu-section .block {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .menu-section .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.menu-section .block-mention {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.menu-section .block-mention h1 {
+  text-align: center;
+}
+.menu-section .block-mention div {
+  width: 90%;
+  margin: auto;
 }
 .menu-section i {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
@@ -373,7 +398,7 @@ h3 span {
 /*home page*/
 .container {
   margin: 70px 0 0 0;
-  height: 600px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -501,12 +526,24 @@ h3 span {
   color: #fdcb46;
   align-items: center;
 }
+@media (max-width: 1024px) {
+  .next p {
+    font-size: 15px;
+  }
+}
 
 /*end home page*/
 footer {
   display: flex;
   justify-content: space-between;
   background-color: #579c87;
+}
+footer .footer-terms {
+  width: 50%;
+  margin: auto;
+}
+footer .footer-terms p {
+  text-align: center;
 }
 footer p {
   display: flex;

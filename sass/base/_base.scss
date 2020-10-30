@@ -7,7 +7,7 @@ body{
 }
 header{
     width: 100%;
-    background-color: $couleur-bg-extremité;       
+    background-color: $couleur-bg-extremité;    
     h1{
         @include flex-column;
         justify-content: center;
@@ -15,6 +15,9 @@ header{
         margin: auto;
         height: 150px;
         font-size: 4em;
+        @media (max-width: 1024px) {
+            font-size: 3em;
+        }
     }
     .yellow-text{
             color: $couleur-text-extremité;
@@ -47,6 +50,23 @@ header{
     .block{
         display: flex;
         justify-content: space-between;
+        @media (max-width:1024px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .block-mention{
+        @include flex-column;
+        margin:20px auto;
+        h1{
+            text-align: center;
+        }
+        div{
+            width: 90%;
+            margin: auto;
+        }
     }
     i{
         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f45a5f+0,f88e6d+100 */
@@ -268,7 +288,7 @@ h3{
 /*home page*/           
 .container{
     margin: 70px 0 0 0;
-    height: 600px;
+    height: 500px;
     @include flex-column;
     justify-content: center;
     box-shadow: 0 0 18px rgb(235, 235, 235);                  
@@ -377,6 +397,9 @@ h3{
         font-size: 25px;
         color: $couleur-text-extremité;
         align-items: center;
+        @media (max-width: 1024px) {
+            font-size: 15px;
+        }
     }
 }
 /*end home page*/   
@@ -385,6 +408,14 @@ footer{
 display: flex;
 justify-content: space-between;
 background-color: $couleur-bg-extremité;
+
+    .footer-terms{
+        width: 50%;
+        margin: auto;
+        p{
+            text-align: center;
+        }
+    }
     p {
     @include flex-column;
     justify-content: center;
