@@ -60,6 +60,7 @@ header .yellow-text {
 
 .white-section {
   width: 100%;
+  padding-bottom: 70px;
 }
 .white-section .search-bar {
   display: flex;
@@ -82,20 +83,13 @@ header .yellow-text {
 .menu-section {
   display: flex;
   flex-direction: column;
-  width: 70%;
   margin: auto;
 }
 .menu-section .block {
   display: flex;
-  justify-content: space-between;
-}
-@media (max-width: 1023px) {
-  .menu-section .block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 .menu-section .block-mention {
   display: flex;
@@ -128,7 +122,10 @@ header .yellow-text {
   font-size: 50px;
 }
 .menu-section .menu-size {
-  width: 45%;
+  width: 100%;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 25px;
 }
 
 a {
@@ -397,7 +394,6 @@ h3 span {
 
 /*home page*/
 .container {
-  margin: 70px 0 0 0;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -542,6 +538,9 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: #579c87;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 footer .footer-terms {
   width: 50%;

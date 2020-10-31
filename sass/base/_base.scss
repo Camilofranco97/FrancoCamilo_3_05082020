@@ -26,6 +26,7 @@ header{
 
 .white-section{
     width: 100%;
+    padding-bottom: 70px;
     .search-bar{
         display: flex;
         @include content-items-center;
@@ -45,17 +46,12 @@ header{
 }
 .menu-section{
     @include flex-column;
-    width: 70%;
     margin: auto;
     .block{
         display: flex;
-        justify-content: space-between;
-        @media (max-width:1023px) {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-        }
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
     }
     .block-mention{
         @include flex-column;
@@ -82,7 +78,10 @@ header{
         font-size: 50px;
     }
     .menu-size{
-        width: 45%;
+        width: 100%;
+        max-width: 400px;
+        min-width: 300px;
+        margin: 25px;
     }
 }
 
@@ -287,7 +286,6 @@ h3{
 
 /*home page*/           
 .container{
-    margin: 70px 0 0 0;
     height: 500px;
     @include flex-column;
     justify-content: center;
@@ -413,6 +411,9 @@ footer{
 display: flex;
 justify-content: space-between;
 background-color: $couleur-bg-extremité;
+position: fixed;
+bottom: 0;
+width: 100%;
 
     .footer-terms{
         width: 50%;
