@@ -49,7 +49,7 @@ header h1 {
   height: 150px;
   font-size: 4em;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   header h1 {
     font-size: 3em;
   }
@@ -89,7 +89,7 @@ header .yellow-text {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .menu-section .block {
     display: flex;
     flex-direction: column;
@@ -403,6 +403,11 @@ h3 span {
   flex-direction: column;
   justify-content: center;
   box-shadow: 0 0 18px #ebebeb;
+  transform: scale(1);
+  transition-property: transform 400ms;
+}
+.container:hover {
+  transform: scale(1.15);
 }
 .container .restaurant-name {
   font-size: 25px;
