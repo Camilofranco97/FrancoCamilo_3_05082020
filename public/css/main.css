@@ -152,6 +152,16 @@ a {
 .title img {
   width: 35%;
 }
+.title .decorated {
+  display: inline;
+  background: #000000;
+  background: linear-gradient(to top, #000000 0, #000000 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated:hover {
+  background-size: 100% 100%;
+}
 
 .menu1 {
   display: flex;
@@ -392,7 +402,7 @@ h3 span {
   font-family: "devonshireregular";
 }
 
-/*home page*/
+/*start home page*/
 .container {
   height: 500px;
   display: flex;
@@ -512,20 +522,19 @@ h3 span {
 
 .next {
   display: flex;
-  border-radius: 5px;
-  width: 20%;
+  border-radius: 10px;
+  width: 35%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 50px;
   background-color: #579c87;
 }
 .next p {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 25px;
+  margin: 10px 25px 10px 25px;
+  font-size: 30px;
   color: #fdcb46;
-  align-items: center;
+  text-align: center;
+  width: 100%;
 }
 @media (max-width: 1024px) {
   .next p {

@@ -103,6 +103,17 @@ a{
     img{
         width: 35%;
     }
+
+    .decorated{
+        display: inline;
+        background: #000000;
+        background: linear-gradient(to top, #000000 0, #000000 3px, transparent 3px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+    .decorated:hover{
+        background-size: 100% 100%;
+    }
 }
 .menu1{
     @include flex-column;
@@ -284,7 +295,7 @@ h3{
     }
 }
 
-/*home page*/           
+/*start home page*/           
 .container{
     height: 500px;
     @include flex-column;
@@ -387,19 +398,18 @@ h3{
 
 .next{
     display: flex;
-    border-radius: 5px;
-    width: 20%;
+    border-radius: 10px;
+    width: 35%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
     background-color: $couleur-bg-extremité;
     p{
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 25px;
+        margin: 10px 25px 10px 25px;
+        font-size: 30px;
         color: $couleur-text-extremité;
-        align-items: center;
+        text-align: center;
+        width: 100%;
         @media (max-width: 1024px) {
             font-size: 15px;
         }
