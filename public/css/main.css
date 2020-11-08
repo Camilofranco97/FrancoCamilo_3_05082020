@@ -537,14 +537,18 @@ h3 span {
   background-color: #579c87;
   border: 0;
 }
-.next p {
+
+.loading {
   font-size: 30px;
   color: #fdcb46;
+  cursor: wait;
 }
-.next p .loading:after {
+
+.loading:after {
   content: " .";
   animation: dots 1s steps(5, end) infinite;
 }
+
 @keyframes dots {
   0%, 20% {
     color: rgba(0, 0, 0, 0);
@@ -561,7 +565,6 @@ h3 span {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
-
 /*end home page*/
 footer {
   display: flex;
@@ -570,22 +573,46 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 70px;
 }
-footer .footer-terms {
-  width: 50%;
-  margin: auto;
-}
-footer .footer-terms p {
-  text-align: center;
-}
-footer p {
+footer .btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 70px;
-  margin: 0px 10px 0px 10px;
+  height: 50px;
+  margin: 10px;
   font-size: 20px;
   color: #fdcb46;
+  border: 0;
+  align-items: center;
+  background-color: #579c87;
+  cursor: pointer;
+}
+footer .btn:hover {
+  animation: thing 3s infinite;
+}
+
+@keyframes thing {
+  0% {
+    transform: rotate(0deg);
+  }
+  3% {
+    transform: rotate(-7deg);
+  }
+  4% {
+    transform: rotate(7deg);
+  }
+  5% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.footer-terms {
+  width: 100%;
+  max-width: 175px;
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
