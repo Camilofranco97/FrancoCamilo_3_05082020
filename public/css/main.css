@@ -64,20 +64,23 @@ header .yellow-text {
 }
 .white-section .search-bar {
   display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
   align-items: center;
-  width: 50%;
-  margin: 50px auto 0;
+  height: 75px;
+  background-color: #e8e8e8;
 }
 .white-section .search-bar .restaurant-search {
-  border-radius: 30px;
-  margin-right: 5px;
-  width: 65%;
-  height: 30px;
+  margin-left: 5px;
+  width: 100%;
   outline: none;
+  border: none;
+  background-color: #e8e8e8;
 }
 .white-section .search-bar .fa-search {
-  font-size: 20px;
+  font-size: 40px;
+  color: #999999;
+  transform: rotate(90deg);
+  margin-left: 5px;
 }
 
 .menu-section {
@@ -522,23 +525,40 @@ h3 span {
 
 .next {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
-  width: 35%;
+  height: 50px;
+  max-width: 400px;
+  width: 100%;
   margin: auto;
   margin-top: 25px;
   margin-bottom: 50px;
   background-color: #579c87;
+  border: 0;
 }
 .next p {
-  margin: 10px 25px 10px 25px;
   font-size: 30px;
   color: #fdcb46;
-  text-align: center;
-  width: 100%;
 }
-@media (max-width: 1024px) {
-  .next p {
-    font-size: 15px;
+.next p .loading:after {
+  content: " .";
+  animation: dots 1s steps(5, end) infinite;
+}
+@keyframes dots {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: white;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  80%, 100% {
+    text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
 
