@@ -304,13 +304,8 @@ h3{
 .container{
     height: 500px;
     @include flex-column;
-    justify-content: center;
+    @include content-items-center;
     box-shadow: 0 0 18px rgb(235, 235, 235);
-    transform: scale(1);  
-    transition-property: transform 400ms;   
-    &:hover{
-        transform: scale(1.15);
-    }             
     .restaurant-name{
         font-size: 25px;
     }
@@ -318,6 +313,13 @@ h3{
         font-size: 40px;
         font-weight: bold;
         margin: 0;
+    }
+}
+.container-content{
+    transition: .4s;
+    &:hover{
+        transform: scale(1.3); 
+        opacity: .5; 
     }
 }
 
