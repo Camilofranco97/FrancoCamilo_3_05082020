@@ -120,6 +120,9 @@ a{
         background-size: 100% 100%;
     }
 }
+.title-decorated{
+    text-align: center;
+}
 .menu1{
     @include flex-column;
     @include specs-menu;
