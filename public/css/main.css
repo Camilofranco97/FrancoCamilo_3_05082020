@@ -155,14 +155,76 @@ a {
 .title img {
   width: 35%;
 }
-.title .decorated {
+.title .decorated-menu-1 {
   display: inline;
-  background: #000000;
-  background: linear-gradient(to top, #000000 0, #000000 3px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #3c1218 0, #3c1218 3px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
-.title .decorated:hover {
+.title .decorated-menu-1:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-21 {
+  display: inline;
+  background: linear-gradient(to top, #c67412 0, #c67412 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-21:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-22 {
+  display: inline;
+  background: linear-gradient(to top, #a56799 0, #a56799 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-22:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-23 {
+  display: inline;
+  background: linear-gradient(to top, #6e4ccc 0, #6e4ccc 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-23:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-31 {
+  display: inline;
+  background: linear-gradient(to top, #1d3edf 0, #1d3edf 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-31:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-32 {
+  display: inline;
+  background: linear-gradient(to top, #1578f3 0, #1578f3 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-32:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-33 {
+  display: inline;
+  background: linear-gradient(to top, #229df9 0, #229df9 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-33:hover {
+  background-size: 100% 100%;
+}
+.title .decorated-menu-4 {
+  display: inline;
+  background: linear-gradient(to top, #91d967 0, #91d967 3px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.title .decorated-menu-4:hover {
   background-size: 100% 100%;
 }
 
